@@ -1,4 +1,4 @@
-module github.com/openshift/backplane-cli
+module github.com/feichashao/backplane-cli
 
 go 1.21
 
