@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/openshift/backplane-cli/internal/github"
-	"github.com/openshift/backplane-cli/internal/upgrade"
-	"github.com/openshift/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/internal/github"
+	"github.com/feichashao/backplane-cli/internal/upgrade"
+	"github.com/feichashao/backplane-cli/pkg/info"
 	"github.com/spf13/cobra"
 )
 

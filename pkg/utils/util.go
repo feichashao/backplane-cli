@@ -22,8 +22,8 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/client-go/tools/clientcmd/api"
 
-	"github.com/openshift/backplane-cli/internal/github"
-	"github.com/openshift/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/internal/github"
+	"github.com/feichashao/backplane-cli/pkg/info"
 )
 
 const (

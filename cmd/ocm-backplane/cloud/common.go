@@ -16,12 +16,12 @@ import (
 	ocmsdk "github.com/openshift-online/ocm-sdk-go"
 	cmv1 "github.com/openshift-online/ocm-sdk-go/clustersmgmt/v1"
 	BackplaneApi "github.com/openshift/backplane-api/pkg/client"
-	"github.com/openshift/backplane-cli/pkg/awsutil"
-	"github.com/openshift/backplane-cli/pkg/backplaneapi"
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	bpCredentials "github.com/openshift/backplane-cli/pkg/credentials"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/awsutil"
+	"github.com/feichashao/backplane-cli/pkg/backplaneapi"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	bpCredentials "github.com/feichashao/backplane-cli/pkg/credentials"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 	logger "github.com/sirupsen/logrus"
 )
 

@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/openshift/backplane-cli/pkg/accessrequest"
+	"github.com/feichashao/backplane-cli/pkg/accessrequest"
 
 	ocmcli "github.com/openshift-online/ocm-cli/pkg/ocm"
-	"github.com/openshift/backplane-cli/pkg/login"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/login"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 	logger "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

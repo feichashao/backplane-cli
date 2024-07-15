@@ -7,8 +7,8 @@ import (
 
 	logger "github.com/sirupsen/logrus"
 
-	"github.com/openshift/backplane-cli/pkg/login"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/login"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 var (

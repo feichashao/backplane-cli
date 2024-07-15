@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openshift/backplane-cli/pkg/login"
+	"github.com/feichashao/backplane-cli/pkg/login"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/client-go/tools/clientcmd/api"
 )

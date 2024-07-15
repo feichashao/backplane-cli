@@ -21,14 +21,14 @@ import (
 	BackplaneApi "github.com/openshift/backplane-api/pkg/client"
 
 	ocmsdk "github.com/openshift-online/ocm-sdk-go"
-	"github.com/openshift/backplane-cli/pkg/backplaneapi"
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	"github.com/openshift/backplane-cli/pkg/cli/globalflags"
-	"github.com/openshift/backplane-cli/pkg/jira"
-	"github.com/openshift/backplane-cli/pkg/login"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	"github.com/openshift/backplane-cli/pkg/pagerduty"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/backplaneapi"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/cli/globalflags"
+	"github.com/feichashao/backplane-cli/pkg/jira"
+	"github.com/feichashao/backplane-cli/pkg/login"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/pkg/pagerduty"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 // Environment variable that for setting PS1
@@ -327,7 +327,7 @@ func runLogin(cmd *cobra.Command, argv []string) (err error) {
 	// Check PS1 env is set or not
 	EnvPs1, ok := os.LookupEnv(EnvPs1)
 	if !ok {
-		logger.Warn("Env KUBE_PS1_CLUSTER_FUNCTION is not detected. It is recommended to set PS1 to learn which cluster you are operating on, refer https://github.com/openshift/backplane-cli/blob/main/docs/PS1-setup.md", EnvPs1)
+		logger.Warn("Env KUBE_PS1_CLUSTER_FUNCTION is not detected. It is recommended to set PS1 to learn which cluster you are operating on, refer https://github.com/feichashao/backplane-cli/blob/main/docs/PS1-setup.md", EnvPs1)
 	}
 
 	// Add a new cluster & context & user

@@ -19,16 +19,16 @@ import (
 	"k8s.io/client-go/tools/clientcmd/api"
 
 	"github.com/andygrunwald/go-jira"
-	"github.com/openshift/backplane-cli/pkg/backplaneapi"
-	backplaneapiMock "github.com/openshift/backplane-cli/pkg/backplaneapi/mocks"
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	"github.com/openshift/backplane-cli/pkg/client/mocks"
-	jiraClient "github.com/openshift/backplane-cli/pkg/jira"
-	jiraMock "github.com/openshift/backplane-cli/pkg/jira/mocks"
-	"github.com/openshift/backplane-cli/pkg/login"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	ocmMock "github.com/openshift/backplane-cli/pkg/ocm/mocks"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/backplaneapi"
+	backplaneapiMock "github.com/feichashao/backplane-cli/pkg/backplaneapi/mocks"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/client/mocks"
+	jiraClient "github.com/feichashao/backplane-cli/pkg/jira"
+	jiraMock "github.com/feichashao/backplane-cli/pkg/jira/mocks"
+	"github.com/feichashao/backplane-cli/pkg/login"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	ocmMock "github.com/feichashao/backplane-cli/pkg/ocm/mocks"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 func MakeIoReader(s string) io.ReadCloser {

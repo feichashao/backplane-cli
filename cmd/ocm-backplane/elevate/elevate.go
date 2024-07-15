@@ -1,7 +1,7 @@
 package elevate
 
 import (
-	"github.com/openshift/backplane-cli/pkg/elevate"
+	"github.com/feichashao/backplane-cli/pkg/elevate"
 	"github.com/spf13/cobra"
 )
 

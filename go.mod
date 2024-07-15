@@ -19,12 +19,14 @@ require (
 	github.com/openshift-online/ocm-cli v0.1.74
 	github.com/openshift-online/ocm-sdk-go v0.1.430
 	github.com/openshift/backplane-api v0.0.0-20240620101759-427d89f7620c
+	github.com/openshift/backplane-cli v0.1.33
 	github.com/openshift/client-go v0.0.0-20221019143426-16aed247da5c
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.19.0
+	github.com/trivago/tgo v1.0.7
 	golang.org/x/term v0.22.0
 	gopkg.in/AlecAivazis/survey.v1 v1.8.8
 	k8s.io/api v0.28.3
@@ -123,7 +125,6 @@ require (
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
-	github.com/trivago/tgo v1.0.7 // indirect
 	github.com/xlab/treeprint v1.2.0 // indirect
 	github.com/zalando/go-keyring v0.2.3 // indirect
 	go.starlark.net v0.0.0-20230525235612-a134d8f9ddca // indirect

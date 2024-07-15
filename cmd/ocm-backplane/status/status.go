@@ -21,8 +21,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 var StatusCmd = &cobra.Command{

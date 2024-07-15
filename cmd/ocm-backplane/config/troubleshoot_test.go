@@ -8,10 +8,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	cmv1 "github.com/openshift-online/ocm-sdk-go/clustersmgmt/v1"
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	ocmMock "github.com/openshift/backplane-cli/pkg/ocm/mocks"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	ocmMock "github.com/feichashao/backplane-cli/pkg/ocm/mocks"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 	"k8s.io/client-go/tools/clientcmd/api"
 )
 

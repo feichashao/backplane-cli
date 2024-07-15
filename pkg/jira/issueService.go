@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/openshift/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
 
 	"github.com/andygrunwald/go-jira"
 )

@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/openshift/backplane-cli/pkg/cli/globalflags"
-	"github.com/openshift/backplane-cli/pkg/cli/session"
-	"github.com/openshift/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/pkg/cli/globalflags"
+	"github.com/feichashao/backplane-cli/pkg/cli/session"
+	"github.com/feichashao/backplane-cli/pkg/info"
 )
 
 var globalOpts = &globalflags.GlobalOptions{}

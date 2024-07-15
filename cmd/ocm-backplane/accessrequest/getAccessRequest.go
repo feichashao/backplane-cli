@@ -3,7 +3,7 @@ package accessrequest
 import (
 	"fmt"
 
-	"github.com/openshift/backplane-cli/pkg/accessrequest"
+	"github.com/feichashao/backplane-cli/pkg/accessrequest"
 
 	ocmcli "github.com/openshift-online/ocm-cli/pkg/ocm"
 	logger "github.com/sirupsen/logrus"

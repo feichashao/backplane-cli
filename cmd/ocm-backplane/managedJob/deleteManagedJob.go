@@ -23,9 +23,9 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/AlecAivazis/survey.v1"
 
-	"github.com/openshift/backplane-cli/pkg/backplaneapi"
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/backplaneapi"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 func newDeleteManagedJobCmd() *cobra.Command {

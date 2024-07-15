@@ -18,10 +18,10 @@ import (
 
 	backplaneApi "github.com/openshift/backplane-api/pkg/client"
 
-	"github.com/openshift/backplane-cli/pkg/backplaneapi"
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/backplaneapi"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 var GetGitRepoPath = exec.Command("git", "rev-parse", "--show-toplevel")

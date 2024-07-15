@@ -13,14 +13,14 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/spf13/cobra"
 
+	"github.com/feichashao/backplane-cli/pkg/backplaneapi"
+	backplaneapiMock "github.com/feichashao/backplane-cli/pkg/backplaneapi/mocks"
+	"github.com/feichashao/backplane-cli/pkg/cli/globalflags"
+	"github.com/feichashao/backplane-cli/pkg/client/mocks"
+	"github.com/feichashao/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	ocmMock "github.com/feichashao/backplane-cli/pkg/ocm/mocks"
 	cmv1 "github.com/openshift-online/ocm-sdk-go/clustersmgmt/v1"
-	"github.com/openshift/backplane-cli/pkg/backplaneapi"
-	backplaneapiMock "github.com/openshift/backplane-cli/pkg/backplaneapi/mocks"
-	"github.com/openshift/backplane-cli/pkg/cli/globalflags"
-	"github.com/openshift/backplane-cli/pkg/client/mocks"
-	"github.com/openshift/backplane-cli/pkg/info"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	ocmMock "github.com/openshift/backplane-cli/pkg/ocm/mocks"
 )
 
 var _ = Describe("Backplane Session Unit test", func() {

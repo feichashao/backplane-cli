@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/andygrunwald/go-jira"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	jiraClient "github.com/feichashao/backplane-cli/pkg/jira"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 	ocmsdk "github.com/openshift-online/ocm-sdk-go"
 	acctrspv1 "github.com/openshift-online/ocm-sdk-go/accesstransparency/v1"
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	jiraClient "github.com/openshift/backplane-cli/pkg/jira"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	"github.com/openshift/backplane-cli/pkg/utils"
 	logger "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

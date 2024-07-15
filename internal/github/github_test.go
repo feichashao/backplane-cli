@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openshift/backplane-cli/internal/github"
-	"github.com/openshift/backplane-cli/internal/upgrade"
+	"github.com/feichashao/backplane-cli/internal/github"
+	"github.com/feichashao/backplane-cli/internal/upgrade"
 )
 
 func TestGetLatestVersion(t *testing.T) {

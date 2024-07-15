@@ -12,11 +12,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/openshift/backplane-cli/cmd/ocm-backplane/login"
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	"github.com/openshift/backplane-cli/pkg/cli/globalflags"
-	"github.com/openshift/backplane-cli/pkg/info"
-	"github.com/openshift/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/cmd/ocm-backplane/login"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/cli/globalflags"
+	"github.com/feichashao/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
 )
 
 // BackplaneSessionInterface abstract backplane session functions

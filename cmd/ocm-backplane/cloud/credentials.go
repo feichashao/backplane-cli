@@ -9,10 +9,10 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	bpCredentials "github.com/openshift/backplane-cli/pkg/credentials"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	bpCredentials "github.com/feichashao/backplane-cli/pkg/credentials"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 var GetBackplaneClusterFromConfig = utils.DefaultClusterUtils.GetBackplaneClusterFromConfig

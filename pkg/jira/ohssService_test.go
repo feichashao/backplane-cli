@@ -2,10 +2,10 @@ package jira
 
 import (
 	"github.com/andygrunwald/go-jira"
+	jiraMock "github.com/feichashao/backplane-cli/pkg/jira/mocks"
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	jiraMock "github.com/openshift/backplane-cli/pkg/jira/mocks"
 )
 
 var _ = Describe("Jira", func() {

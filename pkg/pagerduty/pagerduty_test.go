@@ -4,10 +4,10 @@ import (
 	"context"
 
 	pdApi "github.com/PagerDuty/go-pagerduty"
+	pdMock "github.com/feichashao/backplane-cli/pkg/pagerduty/mocks"
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	pdMock "github.com/openshift/backplane-cli/pkg/pagerduty/mocks"
 )
 
 var _ = Describe("Pagerduty", func() {

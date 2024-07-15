@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/openshift/backplane-cli/pkg/monitoring"
+	"github.com/feichashao/backplane-cli/pkg/monitoring"
 )
 
 var MonitoringCmd = &cobra.Command{

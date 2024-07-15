@@ -13,14 +13,14 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/andygrunwald/go-jira"
+	"github.com/feichashao/backplane-cli/pkg/backplaneapi"
+	backplaneapiMock "github.com/feichashao/backplane-cli/pkg/backplaneapi/mocks"
+	jiraClient "github.com/feichashao/backplane-cli/pkg/jira"
+	jiraMocks "github.com/feichashao/backplane-cli/pkg/jira/mocks"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	ocmMock "github.com/feichashao/backplane-cli/pkg/ocm/mocks"
 	acctrspv1 "github.com/openshift-online/ocm-sdk-go/accesstransparency/v1"
 	cmv1 "github.com/openshift-online/ocm-sdk-go/clustersmgmt/v1"
-	"github.com/openshift/backplane-cli/pkg/backplaneapi"
-	backplaneapiMock "github.com/openshift/backplane-cli/pkg/backplaneapi/mocks"
-	jiraClient "github.com/openshift/backplane-cli/pkg/jira"
-	jiraMocks "github.com/openshift/backplane-cli/pkg/jira/mocks"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	ocmMock "github.com/openshift/backplane-cli/pkg/ocm/mocks"
 )
 
 const testDesc = "accessrequest package"

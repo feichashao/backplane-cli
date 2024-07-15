@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/openshift/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/pkg/info"
 )
 
 // VersionCmd represents the version command

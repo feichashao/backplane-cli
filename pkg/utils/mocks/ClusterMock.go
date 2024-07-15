@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	utils "github.com/openshift/backplane-cli/pkg/utils"
+	utils "github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 // MockClusterUtils is a mock of ClusterUtils interface.

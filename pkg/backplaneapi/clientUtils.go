@@ -10,9 +10,9 @@ import (
 	BackplaneApi "github.com/openshift/backplane-api/pkg/client"
 	logger "github.com/sirupsen/logrus"
 
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	"github.com/openshift/backplane-cli/pkg/info"
-	"github.com/openshift/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
 )
 
 type ClientUtils interface {

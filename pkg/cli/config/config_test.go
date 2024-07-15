@@ -8,7 +8,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/openshift/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/pkg/info"
 )
 
 func TestGetBackplaneConfig(t *testing.T) {

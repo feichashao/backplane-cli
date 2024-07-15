@@ -1,7 +1,7 @@
 package cloud
 
 import (
-	bpconfig "github.com/openshift/backplane-cli/pkg/cli/config"
+	bpconfig "github.com/feichashao/backplane-cli/pkg/cli/config"
 	"github.com/spf13/cobra"
 )
 

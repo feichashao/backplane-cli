@@ -15,13 +15,13 @@ import (
 	bpclient "github.com/openshift/backplane-api/pkg/client"
 
 	cmv1 "github.com/openshift-online/ocm-sdk-go/clustersmgmt/v1"
-	"github.com/openshift/backplane-cli/pkg/backplaneapi"
-	backplaneapiMock "github.com/openshift/backplane-cli/pkg/backplaneapi/mocks"
-	"github.com/openshift/backplane-cli/pkg/client/mocks"
-	"github.com/openshift/backplane-cli/pkg/info"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	ocmMock "github.com/openshift/backplane-cli/pkg/ocm/mocks"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/backplaneapi"
+	backplaneapiMock "github.com/feichashao/backplane-cli/pkg/backplaneapi/mocks"
+	"github.com/feichashao/backplane-cli/pkg/client/mocks"
+	"github.com/feichashao/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	ocmMock "github.com/feichashao/backplane-cli/pkg/ocm/mocks"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 var _ = Describe("describe script command", func() {

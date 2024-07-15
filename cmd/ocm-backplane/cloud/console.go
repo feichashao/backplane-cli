@@ -8,15 +8,15 @@ import (
 
 	ocmsdk "github.com/openshift-online/ocm-cli/pkg/ocm"
 
-	"github.com/openshift/backplane-cli/pkg/ocm"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
 
 	"github.com/pkg/browser"
 	logger "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"github.com/openshift/backplane-cli/pkg/cli/config"
-	"github.com/openshift/backplane-cli/pkg/utils"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 )
 
 var consoleArgs struct {

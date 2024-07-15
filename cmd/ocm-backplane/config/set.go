@@ -10,7 +10,7 @@ import (
 	"golang.org/x/term"
 	"gopkg.in/AlecAivazis/survey.v1"
 
-	"github.com/openshift/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
 )
 
 func newSetCmd() *cobra.Command {

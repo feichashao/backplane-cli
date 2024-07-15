@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/openshift/backplane-cli/pkg/cli/config"
+	"github.com/feichashao/backplane-cli/pkg/cli/config"
 )
 
 func newGetCmd() *cobra.Command {

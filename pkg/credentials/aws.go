@@ -10,7 +10,7 @@ import (
 	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
-	bpconfig "github.com/openshift/backplane-cli/pkg/cli/config"
+	bpconfig "github.com/feichashao/backplane-cli/pkg/cli/config"
 )
 
 const (

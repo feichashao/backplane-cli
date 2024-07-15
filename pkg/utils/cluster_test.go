@@ -10,11 +10,11 @@ import (
 	"github.com/golang/mock/gomock"
 	"k8s.io/client-go/tools/clientcmd"
 
+	"github.com/feichashao/backplane-cli/pkg/info"
+	"github.com/feichashao/backplane-cli/pkg/ocm"
+	ocmMock "github.com/feichashao/backplane-cli/pkg/ocm/mocks"
+	"github.com/feichashao/backplane-cli/pkg/utils"
 	cmv1 "github.com/openshift-online/ocm-sdk-go/clustersmgmt/v1"
-	"github.com/openshift/backplane-cli/pkg/info"
-	"github.com/openshift/backplane-cli/pkg/ocm"
-	ocmMock "github.com/openshift/backplane-cli/pkg/ocm/mocks"
-	"github.com/openshift/backplane-cli/pkg/utils"
 )
 
 const (
