@@ -3,7 +3,6 @@ package version
 import (
 	"fmt"
 	"os"
-	"runtime/debug"
 
 	"github.com/spf13/cobra"
 
@@ -20,16 +19,8 @@ var VersionCmd = &cobra.Command{
 
 func runVersion(cmd *cobra.Command, argv []string) error {
 
-	buildInfo, available := debug.ReadBuildInfo()
-
-	if len(info.Version) == 0 && available {
-		// print version from build info
-		_, _ = fmt.Fprintf(os.Stdout, "%s\n", buildInfo.Main.Version)
-		return nil
-	}
-
 	// Print the version
-	_, _ = fmt.Fprintf(os.Stdout, "%s\n", info.Version)
+	_, _ = fmt.Fprintf(os.Stdout, "%s\n", info.DefaultInfoService.GetBuildVersion())
 
 	return nil
 }

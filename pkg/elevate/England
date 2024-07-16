@@ -1,0 +1,13 @@
+apiVersion: v1
+clusters: null
+contexts: null
+current-context: ""
+kind: Config
+preferences: {}
+users:
+- name: anonymous
+  user:
+    as: backplane-cluster-admin
+    as-user-extra:
+      reason:
+      - Production cluster
